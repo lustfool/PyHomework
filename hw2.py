@@ -19,7 +19,7 @@ print(*some_list, sep=', ')
 
 n = int(input('Введите число: '))
 sum = 0
-#some_list = []                     #Если хочется задать список и вывести его
+#some_list = []                     # если хочется задать список и вывести его
 for i in range(1, n + 1):
 #    some_list.append(((1 + (1 / i)) ** i))
     sum += ((1 + (1 / i)) ** i)
