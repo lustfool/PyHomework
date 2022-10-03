@@ -48,7 +48,8 @@ class Road:
     def asphalt_mass_count(self):
         self.weigth = 25
         self.thickness = 5
-        return self._length*self._width*self.weigth*self.thickness/1000
+        return self._length * self._width * self.weigth * self.thickness / 1000
+
 
 road = Road(5000, 20)
 print(road.asphalt_mass_count(), 'тонн')
